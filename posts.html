@@ -1,0 +1,22 @@
+---
+layout: page
+title: Nieuws
+permalink: /posts/
+---
+
+<div class="row">
+    {% for post in site.posts %}
+    <div class="card col m6 s12">
+        <div class="card-content">
+            <p class="card-title"
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </p>
+            <p>{{ post.excerpt }}</p>
+        </div>
+        <div class="card-action">
+            <a href="{{ post.url | prepend: site.baseurl }}">Read more&hellip;</a>
+            <small class="right">{{ post.date | date: "%b %-d, %Y" }}</small>
+        </div>
+    </div>
+    {% endfor %}
+</div>
