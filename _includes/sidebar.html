@@ -1,15 +1,2 @@
-{% for training in site.data.trainingen %}
-    <div class="card">
-        <div class="card-image">
-            <iframe src="{{ training.mapsrc }}" width="100%" height="200" frameborder="0" style="border: 1px solid #EEE;"></iframe>
-        </div>
-        <div class="card-content">
-            <p class="card-title">{{ training.dag }} <small>{{ training.start}} &mdash; {{ training.eind }}</small></p>
-            <p>
-                <strong>{{ training.zaal }}</strong><br />
-                {{ training.straat }}<br />
-                {{ training.postcode }} {{ training.gemeente }}
-            </p>
-        </div>
-    </div>
-{% endfor %}
+{% include training.html %}
+{% include contacten.html %}
