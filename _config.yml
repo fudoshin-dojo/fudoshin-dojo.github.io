@@ -7,11 +7,10 @@
 
 # Site settings
 title: Aikido in Gent
-description: > # this means to ignore newlines until "baseurl:"
-  Onze dojo werd opgericht in 2002 door Stefaan Six en is geaffilieerd met
-  Ban Sen Juku vzw, de Europese tak van de Osaka Aikikai. Ban Sen Juku staat
-  onder leiding van Tomita sensei (8ste dan).
-  De vertaling van Ban Sen Juku luidt: \"School der tienduizend stromen\"
+description: > #
+  Ban Sen Juku Fudoshin Dojo &mdash;
+  Onze tiendelige initiatiecursus begint op 8 september.
+  Training op donderdag van 19u tot 21u in Sporthal Wolfput.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aikidogent.com" # the base hostname & protocol for your site
 
