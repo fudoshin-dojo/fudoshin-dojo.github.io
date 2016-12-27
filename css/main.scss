@@ -1,15 +1,4 @@
 ---
 ---
 
-@import "materialize";
-
-.light-green-transparent {
-  background-color: transparentize(color("light-green", "base"), 0.25);
-}
-.teal-transparent {
-  background-color: transparentize(color("teal", "base"), 0.25);
-}
-
-nav .brand-logo {
-  left: 0.5rem;
-}
+@import "main";

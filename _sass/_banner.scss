@@ -1,0 +1,52 @@
+.banner {
+    position: relative;
+    z-index: 1;
+    top: -25px;
+    max-width: 100%;
+    padding: 0 15px;
+    background-color: #e7e7e7;
+
+    .img {
+        top: 5px;
+        position: relative;
+        margin: auto;
+        display: block;
+        min-width: 328px;
+        overflow: hidden;
+        max-width: 100%;
+
+        @include z-depth-1();
+
+        img {
+            display: block;
+            margin: 0 auto;
+            background-color: white;
+        }
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+    .banner {
+        .img {
+            min-width: 720px;
+            max-width: 750px;
+        }
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    .banner {
+        .img {
+            min-width: $screen-md-min - 54px;
+        }
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+    .banner {
+        .img {
+            margin: 0 auto; 
+            max-width: 1170px;
+        }
+    }
+}

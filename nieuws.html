@@ -1,0 +1,23 @@
+---
+layout: page
+title: Laatste nieuws | Fudoshin Dojo — <em>Ban Sen Juku</em>
+permalink: /nieuws/overzicht
+banner-src: http://res.cloudinary.com/dce7lgprd/image/upload/c_scale,w_1170/v1482838732/voeten_atllza.jpg
+banner-alt: Laatste nieuws
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="page-header">
+                <h1>Fudoshin Dojo: laatste nieuws</h1>
+            </div>
+            {% for post in site.posts %}
+                <article class="post">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p>{{ post.content }}</p>
+                </article>    
+            {% endfor %}
+        </div>
+    </div>
+</div>

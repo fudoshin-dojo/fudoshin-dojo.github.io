@@ -1,0 +1,40 @@
+@import "variables";
+@import "mixins";
+@import "navbar";
+@import "banner";
+@import "footer";
+
+img {
+    max-width: 100%;
+}
+
+.aikido-content {
+    img {
+        display: inline-block;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    @media (min-width: $screen-md-min) {
+        img {
+            max-width: 650px;
+        }
+    }
+}
+
+.img-sm {
+    width: 310px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.float-right {
+    margin-left: 15px;
+    float: right;
+}
+
+.float-left {
+    margin-right: 15px;
+    float: left;
+}
