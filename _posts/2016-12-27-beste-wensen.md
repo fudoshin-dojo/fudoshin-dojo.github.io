@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beste Wensen
-permalink: /nieuws/beste-wensen
+permalink: nieuws/beste-wensen
 ---
 
 Het jaar 2016 loopt op zijn laatste benen, de laatste training is reeds achter de rug. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: De nieuwe kalenders zijn er
-permalink: /nieuws/nieuwe-kalenders
+permalink: nieuws/nieuwe-kalenders
 excerpt: Naar aloude gewoonte zijn er ook dit jaar nieuwe kalenders te verkrijgen.<br>Voor slechts €6 kan je dus de school steunen door je kalender bij Stefaan te bestellen tijdens de trainingen. 
 ---
 
