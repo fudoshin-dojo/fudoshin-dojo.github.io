@@ -7,16 +7,16 @@ exclude: 1
     {% for page in site.pages %}
     {% if page.exclude != 1 %}
     <url>
-        <loc>{{ page.url | prepend: site.url }}</loc>
-        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>
+        <loc>{{ page.url | prepend: site.url }}</loc>{% if page.date %}
+        <lastmod>{{ page.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
         <changefreq>yearly</changefreq>
     </url>
     {% endif %}
     {% endfor %}
     {% for post in site.posts %}
     <url>
-        <loc>{{ post.url | prepend: site.url }}</loc>
-        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <loc>{{ post.url | prepend: site.url }}</loc>{% if post.date %}
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
         <changefreq>yearly</changefreq>
     </url>
     {% endfor %}
