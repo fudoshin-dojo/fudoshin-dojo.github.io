@@ -4,6 +4,7 @@ title: Contacteer ons | Fudoshin Dojo — Ban Sen Juku
 permalink: /contact
 banner-src: http://res.cloudinary.com/dce7lgprd/image/upload/c_lpad,g_center,w_1170/v1482841533/fudoshin%20dojo/2016%20initiatie/header.png
 banner-alt: Aikido in Gent
+date: 2017-01-04
 ---
 
 <div class="container">
@@ -11,41 +12,24 @@ banner-alt: Aikido in Gent
         <h1>Contacteer ons <small>voor al je vragen</small></h1>
     </div>
     <section class="row">
+        {% for contact in site.data.contacts %}
         <article class="col-xs-12" typeof="Person">
             <meta property="memberOf" content="Ban Sen Juku">
             <meta property="memberOf" content="Fudoshin Dojo">
             <h2>
-                <small property="jobTitle">hoofdinstructeur</small>
-                <span property="givenName">Stefaan</span> 
-                <span property="familyName">Six</span> 
-                <small property="award">3de Dan</small> 
-                <img src="http://res.cloudinary.com/dce7lgprd/image/upload/c_scale,w_1600/c_crop,g_face,h_120,w_120/v1482868511/fudoshin%20dojo/2016%20initiatie/WhatsApp_Image_2016-12-27_at_20.54.38.jpg" alt="Stefaan Six" class="img-thumbnail float-right">
+                <small property="jobTitle">{{ contact.jobTitle }}</small>
+                <span property="givenName">{{ contact.givenName }}</span> 
+                <span property="familyName">{{ contact.familyName }}</span> 
+                <small property="award">{{ contact.award }}</small>
+                <img src="{{ contact.image }}" alt="{{ contact.givenName }} {{ contact.familyName }}" class="img-thumbnail float-right">
             </h2>
-            <p>
-                Richtte op vraag van <a href="http://bansenjuku.org/tomita.html" target="_blank">Tomita Sensei</a> onze Dojo op. <br>
-                <span property="givenName">Stefaan</span> is tevens ook de hoofdinstructeur van Fudoshin Dojo. <br>
-                <strong>e-mail</strong>: 
-                <a href="mailto:stefaan_six@hotmail.com" property="email">stefaan_six@hotmail.com</a><br>
-                <strong>GSM</strong>: 
-                <span property="telephone" content="+32494775459">+32 (0) 494 77 54 59</span>
+            <p>{% if contact.description %}
+                {{ contact.description }}<br>
+                {% endif %}
+                <strong>email</strong>: <a property="email" href="mailto:{{ contact.email }}">{{ contact.email }}</a><br>
+                <strong>GSM</strong>: <span property="telephone" content="{{ contact.phone.value }}">{{ contact.phone.pretty }}</span>
             </p>
         </article>
-        <article class="col-xs-12" typeof="Person">
-            <meta property="memberOf" content="Ban Sen Juku">
-            <meta property="memberOf" content="Fudoshin Dojo">
-            <h2>
-                <small property="jobTitle">assistent instructeur</small>
-                <span property="givenName">Peter</span> 
-                <span property="familyName">Delvaux</span> 
-                <small property="award">1ste Kyu</small> 
-                <img property="image" src="http://res.cloudinary.com/dce7lgprd/image/upload/c_scale,w_1100/c_crop,g_face,h_120,w_120/v1481575023/fudoshin%20dojo/2016%20initiatie/IMG-20161010-WA0129_v5vu30.jpg" alt="Peter Delvaux" class="img-thumbnail float-right">
-            </h2>
-            <p>
-                <strong>e-mail</strong>: 
-                <a href="mailto:peterdelvaux+fudoshin@gmail.com" property="email">peterdelvaux@gmail.com</a><br>
-                <strong>GSM</strong>: 
-                <span property="telephone" content="+32474604935">+32 (0) 474 60 49 35</span>
-            </p>
-        </article>
+        {% endfor %}
     </section>
 </div>

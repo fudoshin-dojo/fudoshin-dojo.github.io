@@ -3,31 +3,21 @@
         <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <h2>contact</h2>
-                <p typeof="Person">
+                {% for contact in site.data.contacts %}
+                <article typeof="Person">
                     <meta property="memberOf" content="Ban Sen Juku">
                     <meta property="memberOf" content="Fudoshin Dojo">
-                    <strong class="lead">
-                        <span property="givenName">Stefaan</span> 
-                        <span property="familyName">Six</span> 
-                        <small property="jobTitle">Dojo Cho</small>
-                    </strong><br>
-                    <strong>e-mail</strong>: 
-                    <a href="mailto:stefaan_six@hotmail.com" property="email">stefaan_six@hotmail.com</a><br>
-                    <strong>GSM</strong>: 
-                    <span property="telephone" content="+32494775459">+32 (0) 494 77 54 59</span>
-                </p>
-                <p typeof="Person">
-                    <meta property="memberOf" content="Ban Sen Juku">
-                    <meta property="memberOf" content="Fudoshin Dojo">
-                    <strong class="lead">
-                        <span property="givenName">Peter</span> 
-                        <span property="familyName">Delvaux</span>
-                    </strong><br>
-                    <strong>e-mail</strong>:
-                    <a href="mailto:peterdelvaux+fudoshin@gmail.com" property="email">peterdelvaux@gmail.com</a><br>
-                    <strong>GSM</strong>: 
-                    <span property="telephone" content="+32474604935">+32 (0) 474 60 49 35</span>
-                </p>
+                    <h4>
+                        <span property="givenName">{{ contact.givenName }}</span> 
+                        <span property="familyName">{{ contact.familyName }}</span> 
+                        <small property="jobTitle">{{ contact.jobTitle }}</small>
+                    </h4>
+                    <p>
+                        <strong>email</strong>: <a property="email" href="mailto:{{ contact.email }}">{{ contact.email }}</a><br>
+                        <strong>GSM</strong>: <span property="telephone" content="{{ contact.phone.value }}">{{ contact.phone.pretty }}</span>
+                    </p>
+                </article>
+                {% endfor %}
             </div>
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <h2>Trainingen</h2>
