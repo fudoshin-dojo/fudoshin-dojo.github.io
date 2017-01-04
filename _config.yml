@@ -7,10 +7,8 @@
 
 # Site settings
 title: Aikido in Gent | Fudoshin Dojo &mdash; Ban Sen Juku
-description: > #
-  Ban Sen Juku Fudoshin Dojo &mdash;
-  Traditionele Japanse krijgskunst in Gent.
-  Training op donderdag van 19u tot 21u in Sporthal Wolfput.
+description: "Ban Sen Juku Fudoshin Dojo &mdash; Traditionele Japanse krijgskunst in Gent.<br>\n
+  Training op donderdag van 19u tot 21u in Sporthal Wolfput."
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://aikidogent.com" # the base hostname & protocol for your site
 
