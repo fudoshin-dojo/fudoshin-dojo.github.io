@@ -4,7 +4,7 @@ title: Ban Sen Juku Leuven
 permalink: nieuws/ban-sen-juku-leuven
 ---
 
-Onze <a href="http://www.aikidoleuven.org/masakatsu_nl/bansenjukuleuven_nl_aikido.html" target "_blank">zuster dojo uit Leuven</a> 
+Onze <a href="http://www.aikidoleuven.org/masakatsu_nl/bansenjukuleuven_nl_aikido.html" target="_blank">zuster dojo uit Leuven</a> 
 heeft ook een actief <a href="https://www.youtube.com/channel/UCXr9_1ZZirvV0isgxoeBxWg" target="_blank">youtube kanaal</a>.
 
 Hier krijg je een kijk op de trainingen bij Wim in Leuven. Als onze filmpje je konden boeien, is het zeker ook geen slecht 
