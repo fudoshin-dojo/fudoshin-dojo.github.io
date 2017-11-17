@@ -4,8 +4,8 @@ title: Trainingen
 permalink: nieuws/trainingen
 ---
 
-Het is ondertussen al even bezig, maar er zijn momenteel werken in de Sporthal De Wolfput.    
-Dit wil zeggen dat we tot het einde van het seizoen trainen in <a href="" target="_blank">Edugo Arena</a> op donderdag van 18h tot 20h.
+~~Het is ondertussen al even bezig, maar er zijn momenteel werken in de Sporthal De Wolfput.    
+Dit wil zeggen dat we tot het einde van het seizoen trainen in <a href="" target="_blank">Edugo Arena</a> op donderdag van 18h tot 20h.~~
 
 <strong>Belangrijk!</strong> 
 Vanuit de Edugo scholengroep mochten we vernemen dat de sportzaal niet beschikbaar is op 27/6 en 29/6.
