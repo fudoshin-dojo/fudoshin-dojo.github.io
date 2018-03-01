@@ -42,4 +42,4 @@ Juku</em> school and the <strong>80<sup>th</sup> birthday</strong> of <em>Tomita
 </article>
 
 <h3>Poster</h3>
-<img src=http://res.cloudinary.com/dce7lgprd/image/upload/v1519205425/AIKIDO_affiche_stage_epaixq.jpg" alt="Special Anniversary Open Seminar">
+![Special Anniversary Open Seminar](http://res.cloudinary.com/dce7lgprd/image/upload/v1519205425/AIKIDO_affiche_stage_epaixq.jpg)
