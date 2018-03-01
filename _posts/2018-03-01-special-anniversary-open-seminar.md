@@ -7,7 +7,7 @@ permalink: nieuws/special-anniversary-open-seminar
 <p class="lead">Special Anniversary Open Seminar <br>Directed by Tomita Seiji Shihan 8<sup>th</sup> dan.</p>
 <p>We would like to extend an open invitation to all interested aikidoka’s, irrespective of their
 lineage, to take part in this seminar which celebrates the <strong>30<sup>th</sup> anniversary</strong> of the <em>Ban Sen
-Juku</em> school and the <strong>80<sup>th</sup> birthday</strong> of <em>Tomita sensei<em>!</p>
+Juku</em> school and the <strong>80<sup>th</sup> birthday</strong> of <em>Tomita sensei</em>!</p>
 
 <h3>When</h3>
 <p>Sunday 15 April 2018: 14h00 &ndash; 18h00</p>
