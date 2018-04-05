@@ -24,8 +24,8 @@ Juku</em> school and the <strong>80<sup>th</sup> birthday</strong> of <em>Tomita
 
 <h3>Sunday Evening Dinner</h3>
 <p class="address">
-  <strong><a href="http://www.hokkaido-gent.be">Hokkaido sushi restaurant</a></strong><br>
-  <span>Vrijdagmarkt 33</span><br>
+  <strong><a href="http://www.sushiplaza.be/">Sushi Plaza</a></strong><br>
+  <span>Vlaanderenstraat 13</span><br>
   <span>9000</span> <span>Gent</span>
 </p>
 
@@ -42,4 +42,4 @@ Juku</em> school and the <strong>80<sup>th</sup> birthday</strong> of <em>Tomita
 </article>
 
 <h3>Poster</h3>
-![Special Anniversary Open Seminar](http://res.cloudinary.com/dce7lgprd/image/upload/v1519205425/AIKIDO_affiche_stage_epaixq.jpg)
+![Special Anniversary Open Seminar](http://res.cloudinary.com/dce7lgprd/image/upload/v1522931871/AIKIDO_affiche_stage_1_xpmrkd.jpg)
